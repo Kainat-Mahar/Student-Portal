@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.greatVibes{
+   font-family:  'Great Vibes', cursive;
+   font-size: 2rem;
+}
+body{
+    
+}
+.primaryText{
+color: #00a2ff;
+}
+.navbar-bg{
+    background: #2a1b3d;
+}
+
+.nav-item {
+    padding:0 0.4em 0 0.4em;
+    
+}
+
+.carousel-item h5{
+
+    width: 50%; 
+    font-size: 50px;
+    margin-left: 25%;
+    animation-delay: 1s;
+}
+
+.carousel-item p{
+    margin-bottom: 7rem;
+    width: 100%; 
+    font-size: 20px;
+    text-align: right;
+    right: 6%;
+    animation-delay: 1s;
+}
+ 
+.fa-globe:hover,.fa-university:hover,.fa-chalkboard-teacher:hover{
+        color: #37027c;
+}
+.ruler{
+    padding-bottom: 3em;
+     border-bottom: 1px dotted;
+}
+.vision {
+    margin-left: 20%;
+
+}
+#contact{
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+}
+.ctctOverlay{
+    height: 100vh;
+    background: #010C35;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.btn{
+  border-radius: 5px;
+  color: #010C35;
+  font-weight: bold;
+}
+
+.btn:hover{
+    background: #00a2ff;
+}
+
+footer{
+    background: #1e1529;
+    display: flex;
+    color: #fff;
+    padding: 4rem;
+}
+
+footer div{
+    flex:1;
+}
+
+footer div:nth-child(4){
+     text-align-last: right;
+    
+}
+
+.fa-circle{
+    color: #00a2ff;
+}
+
+@media only screen and (max-width:582px){
+.muetlogo{
+    display: none;
+}
+.vision {
+    margin: 7%;
+
+}
+}

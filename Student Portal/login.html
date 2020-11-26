@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <!--linking fontawesom for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Links for fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Roboto&display=swap" rel="stylesheet">
+
+  <!-- linking for css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/student.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  
+  <!-- -->
+
+  <!-- Styling Social Media Icons -->
+  <style type="text/css">
+    .fab {
+  padding: 10px;
+  font-size: 20px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 1px;
+  border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+.button{
+  width: 100%;
+  margin-top: 5%; 
+  background: linear-gradient(to right, #33ccff 0%, #cc33ff 80%); border-radius: 25px;
+}
+
+  </style>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-bg py-2">
+      <a class="navbar-brand greatVibes" href="#"><span class="primaryText greatVibes"><i
+            class="fas fa-user-graduate fa-2x"></i> Student</span>Portal</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#welcome">About US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Student Database
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="login.html">Login</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/index.html#contact" tabindex="-1" aria-disabled="true">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+</div> 
+
+<!-- Login Section -->
+<div  id="home">
+  <h1>Welcome to Login Portal</h1>
+<div class="box">
+  <label for="Username">
+    <i class="fas fa-envelope"></i> Email</label>
+   <input type="email" class="form-control input-field" id="inputEmail3" placeholder="Type your Email" > <br>
+    <label for="Username">
+     <i class="fa fa-lock" aria-hidden="true"></i> Password</label>
+   <input type="email" class="form-control input-field" id="inputEmail3" placeholder="Type your Password">
+    <br>
+
+   <label for="loginAs">
+    <i class="fas fa-user"></i>
+   User</label>
+   <select class="custom-select select-box" style="border-radius: 6px" >
+        <option selected>None</option>
+        <option value="1">Student</option>
+        <option value="2">Teacher</option>
+        <option valu
+        ">Admin</option>
+      </select> <br>
+      <button type="submit" class="button btn"> 
+        <i class="fas fa-sign-in-alt"></i>
+      Sign in</button>
+  <h6 style="text-align: center; margin-top: 30px">Or Sign In Using</h6>
+  <div style="margin-left: 40px">
+  <i class="fab fa-google fa-2x"></i> &nbsp;
+        <i class="fab fa-facebook fa-2x"></i> &nbsp;
+        <i class="fab fa-yahoo fa-2x"></i>
+        </div>
+
+</div>
+</div>
+<footer class="container-fluid">
+    <div class="row">
+    <div class="ml-4">
+      <p><i class="fas fa-circle"></i> MUET MAIN CAMPUS</p>
+    </div>
+
+  
+    <div>
+      <p>Privary-policy <br>
+         Cookies Privacy</p>
+    </div>
+
+    <div>
+      <p>follow us:</p>
+      <p><i class="fab fa-linkedin fa-2x"></i> &nbsp;
+        <i class="fab fa-facebook-square fa-2x"></i> &nbsp;
+        <i class="fab fa-instagram fa-2x"></i>
+
+      </p>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
